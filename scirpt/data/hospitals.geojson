@@ -1,7 +1,0 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {"type":"Feature","properties":{"id":"HS1","name":"RS Demo A","type":"hospital","phone":"0274-000111","address":"Jl. Demo A","emergency":true},"geometry":{"type":"Point","coordinates":[110.375,-7.805]}},
-    {"type":"Feature","properties":{"id":"HS2","name":"Klinik Demo B","type":"clinic","phone":"0274-000222","address":"Jl. Demo B","emergency":false},"geometry":{"type":"Point","coordinates":[110.362,-7.809]}}
-  ]
-}
