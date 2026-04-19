@@ -1,7 +1,0 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {"type":"Feature","properties":{"id":"P1","name":"Polsek Demo 1","phone":"110","address":"Jl. Demo Polisi 1"},"geometry":{"type":"Point","coordinates":[110.369,-7.801]}},
-    {"type":"Feature","properties":{"id":"P2","name":"Pos Polisi Demo 2","phone":"110","address":"Jl. Demo Polisi 2"},"geometry":{"type":"Point","coordinates":[110.359,-7.792]}}
-  ]
-}
