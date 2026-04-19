@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R1",
+        "name": "Koridor CCTV Tinggi",
+        "length_m": 2800,
+        "cctv_coverage": 8,
+        "hospital_access": 6,
+        "police_access": 7,
+        "darkspot_exposure": 1,
+        "incident_exposure": 2,
+        "transit_access": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[110.361,-7.784],[110.365,-7.79],[110.371,-7.796],[110.375,-7.804]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R2",
+        "name": "Koridor Tengah",
+        "length_m": 2300,
+        "cctv_coverage": 4,
+        "hospital_access": 4,
+        "police_access": 4,
+        "darkspot_exposure": 3,
+        "incident_exposure": 4,
+        "transit_access": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[110.36,-7.787],[110.366,-7.793],[110.37,-7.8],[110.373,-7.806]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R3",
+        "name": "Koridor Cepat tapi Gelap",
+        "length_m": 1700,
+        "cctv_coverage": 1,
+        "hospital_access": 2,
+        "police_access": 2,
+        "darkspot_exposure": 7,
+        "incident_exposure": 6,
+        "transit_access": 2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[110.358,-7.789],[110.363,-7.799],[110.367,-7.811],[110.37,-7.82]]
+      }
+    }
+  ]
+}

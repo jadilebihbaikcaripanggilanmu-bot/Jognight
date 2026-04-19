@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"id":"C1","name":"CCTV Tugu 1","source":"demo","status":"active","address":"Tugu Jogja"},"geometry":{"type":"Point","coordinates":[110.364,-7.783]}},
+    {"type":"Feature","properties":{"id":"C2","name":"CCTV Malioboro 1","source":"demo","status":"active","address":"Malioboro"},"geometry":{"type":"Point","coordinates":[110.367,-7.794]}},
+    {"type":"Feature","properties":{"id":"C3","name":"CCTV Malioboro 2","source":"demo","status":"active","address":"Malioboro"},"geometry":{"type":"Point","coordinates":[110.372,-7.798]}}
+  ]
+}

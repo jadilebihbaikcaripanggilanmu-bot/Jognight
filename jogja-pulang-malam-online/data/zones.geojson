@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Z1",
+        "name": "Zona Tugu",
+        "night_score": 84,
+        "cctv_count": 18,
+        "hotspot_count": 24,
+        "hospital_count": 3,
+        "police_count": 2,
+        "darkspot_count": 1,
+        "incident_index": 22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[110.356, -7.792],[110.37, -7.792],[110.37, -7.802],[110.356, -7.802],[110.356, -7.792]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Z2",
+        "name": "Zona Malioboro",
+        "night_score": 73,
+        "cctv_count": 14,
+        "hotspot_count": 16,
+        "hospital_count": 2,
+        "police_count": 2,
+        "darkspot_count": 2,
+        "incident_index": 30
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[110.368, -7.796],[110.382, -7.796],[110.382, -7.808],[110.368, -7.808],[110.368, -7.796]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Z3",
+        "name": "Zona Pinggir Selatan",
+        "night_score": 39,
+        "cctv_count": 4,
+        "hotspot_count": 6,
+        "hospital_count": 1,
+        "police_count": 1,
+        "darkspot_count": 6,
+        "incident_index": 61
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[110.36, -7.815],[110.378, -7.815],[110.378, -7.828],[110.36, -7.828],[110.36, -7.815]]]
+      }
+    }
+  ]
+}

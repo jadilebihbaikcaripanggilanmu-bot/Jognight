@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogja Pulang Malam</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-badge">🌙</div>
+        <div>
+          <h1>Jogja Pulang Malam</h1>
+          <p>Night Safety &amp; Mobility</p>
+        </div>
+      </div>
+
+      <section class="card controls">
+        <h2>Input Rute</h2>
+        <label>Asal</label>
+        <input id="originInput" type="text" placeholder="Contoh: Tugu Jogja" />
+
+        <label>Tujuan</label>
+        <input id="destinationInput" type="text" placeholder="Contoh: UGM" />
+
+        <div class="button-row">
+          <button id="drawDemoRouteBtn">Demo Rute</button>
+          <button id="clearRouteBtn" class="secondary">Reset</button>
+        </div>
+      </section>
+
+      <section class="card layers">
+        <h2>Layer</h2>
+        <label><input type="checkbox" data-layer-toggle="zones" checked /> Zona</label>
+        <label><input type="checkbox" data-layer-toggle="cctv" checked /> CCTV</label>
+        <label><input type="checkbox" data-layer-toggle="hotspots" checked /> Hotspot</label>
+        <label><input type="checkbox" data-layer-toggle="hospitals" checked /> RS / Klinik</label>
+        <label><input type="checkbox" data-layer-toggle="police" checked /> Polisi</label>
+        <label><input type="checkbox" data-layer-toggle="darkspots" checked /> Titik Gelap</label>
+        <label><input type="checkbox" data-layer-toggle="transit" checked /> Transit</label>
+      </section>
+
+      <section class="card summary">
+        <h2>Ringkasan</h2>
+        <div class="summary-grid">
+          <div><span>Zona teraman</span><strong id="bestZone">-</strong></div>
+          <div><span>Zona perlu dihindari</span><strong id="worstZone">-</strong></div>
+          <div><span>Rekomendasi rute</span><strong id="routeTag">Belum dihitung</strong></div>
+          <div><span>Titik bantuan terdekat</span><strong id="nearestHelp">-</strong></div>
+        </div>
+      </section>
+
+      <section class="card emergency">
+        <h2>Emergency Stop</h2>
+        <p>Klik lokasi di peta atau jalankan demo rute untuk melihat bantuan terdekat.</p>
+        <div id="emergencyList" class="emergency-list"></div>
+      </section>
+    </aside>
+
+    <main class="map-panel">
+      <div class="map-toolbar">
+        <div>
+          <strong>Status:</strong> mode malam aktif
+        </div>
+        <div>
+          <span class="pill">Rute aman</span>
+          <span class="pill danger">Risiko tinggi</span>
+        </div>
+      </div>
+      <div id="map"></div>
+      <div class="floating-card" id="routeInfo">
+        <h3>Info Rute</h3>
+        <p>Pilih asal dan tujuan, lalu hitung rute.</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

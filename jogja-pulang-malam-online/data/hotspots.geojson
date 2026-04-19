@@ -1,0 +1,7 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"id":"H1","name":"Hotspot JSS Tugu","category":"public","address":"Tugu"},"geometry":{"type":"Point","coordinates":[110.363,-7.784]}},
+    {"type":"Feature","properties":{"id":"H2","name":"Hotspot JSS Malioboro","category":"public","address":"Malioboro"},"geometry":{"type":"Point","coordinates":[110.371,-7.799]}}
+  ]
+}

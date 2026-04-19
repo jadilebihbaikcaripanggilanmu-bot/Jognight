@@ -1,0 +1,7 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"id":"D1","name":"Titik Gelap A","risk_level":"high","source":"demo"},"geometry":{"type":"Point","coordinates":[110.372,-7.818]}},
+    {"type":"Feature","properties":{"id":"D2","name":"Titik Gelap B","risk_level":"medium","source":"demo"},"geometry":{"type":"Point","coordinates":[110.366,-7.820]}}
+  ]
+}
