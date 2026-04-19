@@ -1,7 +1,0 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {"type":"Feature","properties":{"id":"T1","name":"Halte Tugu","route_code":"TJ-1A","address":"Tugu"},"geometry":{"type":"Point","coordinates":[110.3635,-7.7835]}},
-    {"type":"Feature","properties":{"id":"T2","name":"Halte Malioboro","route_code":"TJ-2B","address":"Malioboro"},"geometry":{"type":"Point","coordinates":[110.3715,-7.7975]}}
-  ]
-}
