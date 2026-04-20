@@ -7,7 +7,7 @@ window.APP_CONFIG = {
   },
   geocoder: {
     provider: 'geoapify',
-    apiKey: '',
+    apiKey: 'f77655c38be645f7955d3b36c86c080e',
     countryCodes: ['id'],
     biasCenter: { lat: -7.7956, lng: 110.3695 },
     filterCircleMeters: 30000,
