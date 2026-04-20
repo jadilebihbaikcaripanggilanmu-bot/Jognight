@@ -521,7 +521,7 @@ input[type="text"]:focus, select:focus {
 }
 
 .custom-layer-left.leaflet-control-layers {
-  margin-top: 120px !important;
+  margin-top: 60px !important;
   margin-left: 14px !important;
   border: 0 !important;
   border-radius: 16px !important;
