@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogja Pulang Malam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-card glass">
+        <div class="brand-mark">🌙</div>
+        <div>
+          <h1>Jogja Pulang Malam</h1>
+          <p id="brandSubtext">Night Safety & Mobility</p>
+        </div>
+      </div>
+
+      <section class="panel glass route-form-card">
+        <div class="panel-head">
+          <h2 id="inputTitle">Input Rute</h2>
+        </div>
+
+        <div class="field-block">
+          <label for="originInput" id="originLabel">Asal</label>
+          <div class="input-stack">
+            <input id="originInput" type="text" placeholder="Contoh: Tugu Yogyakarta" autocomplete="off" />
+            <div id="originSuggestions" class="suggestions hidden"></div>
+          </div>
+        </div>
+
+        <div class="field-block">
+          <label for="destinationInput" id="destinationLabel">Tujuan</label>
+          <div class="input-stack">
+            <input id="destinationInput" type="text" placeholder="Contoh: UGM" autocomplete="off" />
+            <div id="destinationSuggestions" class="suggestions hidden"></div>
+          </div>
+        </div>
+
+        <div class="button-row grid-2">
+          <button id="useMyLocationBtn" class="soft-btn">Pakai lokasi saya</button>
+          <button id="drawRouteBtn" class="primary-btn">Cari rute aman</button>
+          <button id="clearRouteBtn" class="ghost-btn full-span">Reset</button>
+        </div>
+      </section>
+    </aside>
+
+    <main class="map-panel">
+      <div id="map"></div>
+
+      <div class="map-top-left glass legend-card">
+        <div class="legend-item"><span class="legend-swatch best"></span><span id="legendBest">Rute terbaik</span></div>
+        <div class="legend-item"><span class="legend-swatch alt"></span><span id="legendAlt">Rute alternatif</span></div>
+      </div>
+
+      <div class="map-top-right glass settings-card">
+        <div class="settings-title" id="settingsTitle">Common settings</div>
+        <label class="mini-label" for="languageSelect" id="languageLabel">Bahasa</label>
+        <select id="languageSelect">
+          <option value="id">Bahasa Indonesia</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div class="route-info glass" id="routeInfo"></div>
+
+      <div class="call-centre glass" id="callCentreCard">
+        <div class="call-head">
+          <h3 id="callCentreTitle">Call Centre</h3>
+        </div>
+        <div class="call-actions">
+          <a id="policeCallLink" class="call-btn police" href="tel:110">110 Polisi</a>
+          <a id="ambulanceCallLink" class="call-btn ambulance" href="tel:119">119 Ambulans</a>
+        </div>
+        <div class="nearest-help" id="nearestHelpBox"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
