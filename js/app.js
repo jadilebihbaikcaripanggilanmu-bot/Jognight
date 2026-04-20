@@ -351,9 +351,13 @@ function buildLayerControl() {
   };
 
   state.layerControl = L.control.layers(null, overlays, {
-    position: 'topright',
-    collapsed: false
-  }).addTo(map);
+  position: 'topleft',
+  collapsed: false
+}).addTo(map);
+
+const layerContainer = state.layerControl.getContainer();
+if (layerContainer) {
+  layerContainer.classList.add('custom-layer-left');
 }
 
 function layerLabelHtml(type, label) {
