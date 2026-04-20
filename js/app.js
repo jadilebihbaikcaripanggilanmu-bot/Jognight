@@ -290,6 +290,11 @@ function buildLayerControl() {
     collapsed: false
   }).addTo(map);
 
+  const layerContainer = state.layerControl.getContainer();
+  if (layerContainer) {
+  layerContainer.classList.add('custom-layer-left');
+}
+
   const container = state.layerControl.getContainer?.();
   if (container) container.classList.add('map-layer-control');
 }
