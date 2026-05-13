@@ -26,11 +26,13 @@ window.APP_CONFIG = {
     cctvNearMeters: 90,
     hospitalNearMeters: 220,
     policeNearMeters: 220,
+    spbuNearMeters: 200,
     weights: {
       distanceMeters: -0.00015,
       cctv: 2.9,
       hospital: 3.4,
-      police: 3.8
+      police: 3.8,
+      spbu: 1.8
     }
   },
   emergency: {
