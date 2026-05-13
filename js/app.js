@@ -25,6 +25,7 @@ const I18N = {
     cctvNear: 'CCTV dekat',
     hospitalNear: 'RS / Klinik',
     policeNear: 'Polisi',
+    spbuNear: 'SPBU dekat',
     directions: 'Petunjuk awal',
     cctvAlong: 'CCTV dekat rute',
     bestRoute: 'Rute terbaik',
@@ -51,6 +52,8 @@ const I18N = {
     cctv: 'CCTV',
     unavailable: 'Belum tersedia',
     noNearbyCctv: 'Tidak ada CCTV dekat rute.',
+    spbuTitle: 'SPBU / Pom Bensin',
+    nearestSpbu: 'SPBU terdekat',
     routeType: {
       balanced: 'Seimbang',
       short: 'Terpendek',
@@ -89,6 +92,7 @@ const I18N = {
     cctvNear: 'Nearby CCTV',
     hospitalNear: 'Hospitals',
     policeNear: 'Police',
+    spbuNear: 'Nearby SPBU',
     directions: 'First directions',
     cctvAlong: 'CCTV near route',
     bestRoute: 'Best route',
@@ -115,6 +119,8 @@ const I18N = {
     cctv: 'CCTV',
     unavailable: 'Not available',
     noNearbyCctv: 'No CCTV found near the route.',
+    spbuTitle: 'Fuel Station',
+    nearestSpbu: 'Nearest fuel station',
     routeType: {
       balanced: 'Balanced',
       short: 'Shortest',
@@ -154,6 +160,7 @@ const I18N = {
     cctvNear: 'CCTV cedhak',
     hospitalNear: 'RS / Klinik',
     policeNear: 'Polisi',
+    spbuNear: 'SPBU cedhak',
     directions: 'Pandhuan awal',
     cctvAlong: 'CCTV cedhak rute',
     bestRoute: 'Rute paling apik',
@@ -180,6 +187,8 @@ const I18N = {
     cctv: 'CCTV',
     unavailable: 'Durung kasedhiya',
     noNearbyCctv: 'Ora ana CCTV cedhak rute.',
+    spbuTitle: 'SPBU / Pom Bensin',
+    nearestSpbu: 'SPBU paling cedhak',
     routeType: {
       balanced: 'Imbang',
       short: 'Paling cendhak',
@@ -206,6 +215,7 @@ const state = {
     cctv: EMPTY_GEOJSON,
     hospitals: EMPTY_GEOJSON,
     police: EMPTY_GEOJSON,
+    spbu: EMPTY_GEOJSON,
   },
   localPlaces: [],
   originPlace: null,
@@ -255,7 +265,8 @@ const dataFiles = {
   cctv: 'data/cctv.geojson',
   hospitals: 'data/hospitals.geojson',
   police: 'data/police.geojson',
-  places: 'data/places.json'
+  places: 'data/places.json',
+  spbu: 'data/spbu.geojson'
 };
 
 init().catch((err) => {
@@ -298,16 +309,18 @@ async function loadJSON(url, fallback) {
 }
 
 async function loadAllData() {
-  const [cctv, hospitals, police, places] = await Promise.all([
+  const [cctv, hospitals, police, spbu, places] = await Promise.all([
     loadJSON(dataFiles.cctv, EMPTY_GEOJSON),
     loadJSON(dataFiles.hospitals, EMPTY_GEOJSON),
     loadJSON(dataFiles.police, EMPTY_GEOJSON),
+    loadJSON(dataFiles.spbu, EMPTY_GEOJSON),
     loadJSON(dataFiles.places, EMPTY_ARRAY)
   ]);
 
   state.datasets.cctv = normalizeGeojson(cctv);
   state.datasets.hospitals = normalizeGeojson(hospitals);
   state.datasets.police = normalizeGeojson(police);
+  state.datasets.spbu = normalizeGeojson(spbu);
   state.localPlaces = Array.isArray(places) ? places : [];
 }
 
@@ -337,6 +350,11 @@ function buildOperationalLayers() {
     pointToLayer: (feature, latlng) => L.marker(latlng, { icon: createFacilityIcon('police') }),
     onEachFeature: (feature, layer) => layer.bindPopup(buildPolicePopup(buildPoliceInfo(feature)))
   }).addTo(map);
+
+  state.layers.spbu = L.geoJSON(state.datasets.spbu, {
+    pointToLayer: (feature, latlng) => L.marker(latlng, { icon: createFacilityIcon('spbu') }),
+    onEachFeature: (feature, layer) => layer.bindPopup(buildSpbuPopup(buildSpbuInfo(feature)))
+  }).addTo(map);
 }
 
 function buildLayerControl() {
@@ -349,6 +367,7 @@ function buildLayerControl() {
     [layerLabelHtml('cctv', t('cctv'))]: state.layers.cctv,
     [layerLabelHtml('hospital', t('hospitalClinic'))]: state.layers.hospitals,
     [layerLabelHtml('police', t('policeOffice'))]: state.layers.police,
+    [layerLabelHtml('spbu', t('spbuTitle'))]: state.layers.spbu,
   };
 
   state.layerControl = L.control.layers(null, overlays, {
@@ -633,6 +652,7 @@ function scoreRoute(routeFeature) {
   const cctvNear = countPointsNearRoute(state.datasets.cctv.features, routeFeature, APP_CONFIG.scoring.cctvNearMeters);
   const hospitalNear = countPointsNearRoute(state.datasets.hospitals.features, routeFeature, APP_CONFIG.scoring.hospitalNearMeters);
   const policeNear = countPointsNearRoute(state.datasets.police.features, routeFeature, APP_CONFIG.scoring.policeNearMeters);
+  const spbuNear = countPointsNearRoute(state.datasets.spbu.features, routeFeature, APP_CONFIG.scoring.spbuNearMeters);
   const distanceMeters = Number(routeFeature.properties.distance || 0);
 
   const score = (
@@ -640,13 +660,15 @@ function scoreRoute(routeFeature) {
     (distanceMeters * APP_CONFIG.scoring.weights.distanceMeters) +
     (cctvNear.length * APP_CONFIG.scoring.weights.cctv) +
     (hospitalNear.length * APP_CONFIG.scoring.weights.hospital) +
-    (policeNear.length * APP_CONFIG.scoring.weights.police)
+    (policeNear.length * APP_CONFIG.scoring.weights.police) +
+    (spbuNear.length * APP_CONFIG.scoring.weights.spbu)
   );
 
   routeFeature.properties.safety_score = score;
   routeFeature.properties.cctv_near = cctvNear;
   routeFeature.properties.hospital_near = hospitalNear;
   routeFeature.properties.police_near = policeNear;
+  routeFeature.properties.spbu_near = spbuNear;
 }
 
 function countPointsNearRoute(pointFeatures, routeFeature, maxMeters) {
@@ -767,6 +789,7 @@ function renderRouteInfo() {
       <div class="metric-box"><span>${escapeHtml(t('cctvNear'))}</span><strong>${(p.cctv_near || []).length}</strong></div>
       <div class="metric-box"><span>${escapeHtml(t('hospitalNear'))}</span><strong>${(p.hospital_near || []).length}</strong></div>
       <div class="metric-box"><span>${escapeHtml(t('policeNear'))}</span><strong>${(p.police_near || []).length}</strong></div>
+      <div class="metric-box"><span>${escapeHtml(t('spbuNear'))}</span><strong>${(p.spbu_near || []).length}</strong></div>
     </div>
 
     <div class="content-box">
@@ -837,9 +860,11 @@ function renderCallCentre(referenceCoord = getCurrentReferenceCoord()) {
 
   const nearestHospital = findNearestFeature(referenceCoord, state.datasets.hospitals.features);
   const nearestPolice = findNearestFeature(referenceCoord, state.datasets.police.features);
+  const nearestSpbu = findNearestFeature(referenceCoord, state.datasets.spbu.features);
 
   const hospitalInfo = nearestHospital ? buildHospitalInfo(nearestHospital.feature) : null;
   const policeInfo = nearestPolice ? buildPoliceInfo(nearestPolice.feature) : null;
+  const spbuInfo = nearestSpbu ? buildSpbuInfo(nearestSpbu.feature) : null;
 
   dom.nearestHelpBox.innerHTML = `
     <div class="nearest-title">${escapeHtml(t('nearestHelp'))}</div>
@@ -854,6 +879,12 @@ function renderCallCentre(referenceCoord = getCurrentReferenceCoord()) {
       <strong>${escapeHtml(policeInfo?.name || t('unavailable'))}</strong>
       ${nearestPolice ? `<span>${nearestPolice.distance.toFixed(2)} km</span>` : ''}
       ${policeInfo ? `<div class="inline-actions compact-actions"><a class="mini-btn secondary" href="${escapeAttr(buildMapsUrl(policeInfo.name, policeInfo.lat, policeInfo.lng))}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openLocation'))}</a></div>` : ''}
+    </div>
+    <div class="nearest-block">
+      <div class="nearest-label">${escapeHtml(t('nearestSpbu'))}</div>
+      <strong>${escapeHtml(spbuInfo?.name || t('unavailable'))}</strong>
+      ${nearestSpbu ? `<span>${nearestSpbu.distance.toFixed(2)} km</span>` : ''}
+      ${spbuInfo ? `<div class="inline-actions compact-actions"><a class="mini-btn secondary" href="${escapeAttr(buildMapsUrl(spbuInfo.name, spbuInfo.lat, spbuInfo.lng))}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openLocation'))}</a></div>` : ''}
     </div>
   `;
 }
@@ -999,18 +1030,48 @@ function buildPolicePopup(info) {
   `;
 }
 
+
+function buildSpbuInfo(feature) {
+  const p = getProps(feature);
+  const name = getAny(p, ['name', 'brand']) || t('spbuTitle');
+  const coords = feature.geometry.coordinates;
+  return {
+    name,
+    address: getAddress(p),
+    brand: getAny(p, ['brand']) || 'Pertamina',
+    lat: coords[1],
+    lng: coords[0]
+  };
+}
+
+function buildSpbuPopup(info) {
+  const mapsUrl = buildMapsUrl(info.name, info.lat, info.lng);
+  return `
+    <div class="popup-card">
+      <strong>${escapeHtml(t('spbuTitle'))}</strong><br>
+      ${escapeHtml(info.name)}
+      ${info.address ? `<span class="popup-sub">${escapeHtml(info.address)}</span>` : ''}
+      <span class="popup-sub">${escapeHtml(info.brand)}</span>
+      <div class="inline-actions compact-actions">
+        <a class="mini-btn secondary" href="${escapeAttr(mapsUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openLocation'))}</a>
+      </div>
+    </div>
+  `;
+}
+
 function createFacilityIcon(type) {
   const svgs = {
-    cctv: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8.5h10.5l2.2-2.2 2.3 2.2H22v7H16.8l-2.3 2.2-2.2-2.2H2zM8 18.4a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8Z"></path></svg>`,
-    hospital: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3h4v5h5v4h-5v5h-4v-5H5V8h5z"></path></svg>`,
-    police: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v5c0 5.3 3.4 10.2 8 12 4.6-1.8 8-6.7 8-12V5zm0 4.1 1.2 2.5 2.7.4-1.9 1.9.4 2.7-2.4-1.3-2.4 1.3.4-2.7-1.9-1.9 2.7-.4z"></path></svg>`
+    cctv: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 10l4.553-2.069A1 1 0 0121 8.82v6.36a1 1 0 01-1.447.889L15 14M3 8a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>`,
+    hospital: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v8M8 12h8"/><rect x="3" y="3" width="18" height="18" rx="3"/></svg>`,
+    police: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l-8 3v5c0 5.25 3.4 10.1 8 12 4.6-1.9 8-6.75 8-12V5l-8-3z"/><path d="M9 12l2 2 4-4"/></svg>`,
+    spbu: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 22V8a2 2 0 012-2h6a2 2 0 012 2v14"/><path d="M3 22h10M13 8l4-4 2 2-1 1v10a1 1 0 01-1 1h-1"/><path d="M6 11h4"/></svg>`
   };
 
   return L.divIcon({
     className: '',
     html: `<div class="map-icon ${type}">${svgs[type] || ''}</div>`,
-    iconSize: [34, 34],
-    iconAnchor: [17, 17],
+    iconSize: [38, 38],
+    iconAnchor: [19, 19],
     popupAnchor: [0, -14]
   });
 }
