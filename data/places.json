@@ -1,0 +1,82 @@
+[
+  {
+    "id": "tugu_jogja",
+    "name": "Tugu Yogyakarta",
+    "subtitle": "Landmark • Jetis",
+    "aliases": ["tugu", "tugu jogja", "pal putih"],
+    "lat": -7.782889,
+    "lng": 110.367083
+  },
+  {
+    "id": "ugm_rektorat",
+    "name": "UGM - Rektorat",
+    "subtitle": "Kampus • Sinduadi",
+    "aliases": ["ugm", "rektorat ugm", "universitas gadjah mada"],
+    "lat": -7.770095,
+    "lng": 110.377773
+  },
+  {
+    "id": "ugm_ft",
+    "name": "UGM - Fakultas Teknik",
+    "subtitle": "Kampus • Caturtunggal",
+    "aliases": ["ugm", "fakultas teknik ugm", "ft ugm"],
+    "lat": -7.764921,
+    "lng": 110.372996
+  },
+  {
+    "id": "ugm_sardjito",
+    "name": "RSUP Dr. Sardjito",
+    "subtitle": "Rumah sakit • UGM area",
+    "aliases": ["ugm", "sardjito", "rs sardjito"],
+    "lat": -7.768352,
+    "lng": 110.373678
+  },
+  {
+    "id": "upn_rektorat",
+    "name": "UPN Veteran Yogyakarta - Rektorat",
+    "subtitle": "Kampus • Condongcatur",
+    "aliases": ["upn", "upn veteran", "rektorat upn", "kampus upn"],
+    "lat": -7.762157,
+    "lng": 110.409129
+  },
+  {
+    "id": "upn_babarsari",
+    "name": "UPN Veteran Yogyakarta - Babarsari",
+    "subtitle": "Kampus • Babarsari",
+    "aliases": ["upn", "upn babarsari", "veteran jogja"],
+    "lat": -7.782248,
+    "lng": 110.414465
+  },
+  {
+    "id": "malioboro",
+    "name": "Malioboro",
+    "subtitle": "Koridor wisata • Danurejan",
+    "aliases": ["malioboro", "malioboro street"],
+    "lat": -7.792779,
+    "lng": 110.365833
+  },
+  {
+    "id": "stasiun_tugu",
+    "name": "Stasiun Tugu Yogyakarta",
+    "subtitle": "Transit • Gedongtengen",
+    "aliases": ["stasiun tugu", "tugu station", "stasiun yogyakarta"],
+    "lat": -7.789972,
+    "lng": 110.363253
+  },
+  {
+    "id": "xt_square",
+    "name": "XT Square",
+    "subtitle": "Ruang publik • Umbulharjo",
+    "aliases": ["xt square", "x square", "umbulharjo"],
+    "lat": -7.815072,
+    "lng": 110.392322
+  },
+  {
+    "id": "jombor",
+    "name": "Terminal Jombor",
+    "subtitle": "Transit • Mlati",
+    "aliases": ["jombor", "terminal jombor"],
+    "lat": -7.74995,
+    "lng": 110.36292
+  }
+]
