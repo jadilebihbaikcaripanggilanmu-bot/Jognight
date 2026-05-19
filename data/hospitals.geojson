@@ -1,0 +1,1860 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-19T21:07:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120418961",
+        "access:roof": "yes",
+        "addr:city": "Sleman",
+        "addr:full": "Jalan Kesehatan No. 1, Sinduadi, Mlati, Senolowo, Sinduadi, Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+        "building": "hospital",
+        "building:floor": "ceramics",
+        "building:levels": "4",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "754",
+        "healthcare": "hospital",
+        "name": "Pusat Bedah Terpadu RS Sardjito",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3723306,
+          -7.7685044
+        ]
+      },
+      "id": "way/120418961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120718008",
+        "access:roof": "no",
+        "addr:full": "Jalan Jayaningprangan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:use": "medical",
+        "building:walls": "brick",
+        "capacity:persons": "50-100",
+        "name": "Rumah Sakit Khusus Puri Nirmala",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3769107,
+          -7.8008879
+        ]
+      },
+      "id": "way/120718008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120774929",
+        "addr:city": "Yogyakarta",
+        "addr:full": "Jalan Wirosaban No.1",
+        "addr:housenumber": "01",
+        "addr:postcode": "55162",
+        "addr:street": "Jalan Pangeran Wirosobo",
+        "amenity": "hospital",
+        "description": "Rumah Sakit Wirosaban",
+        "name": "RS Jogja",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3782841,
+          -7.8258561
+        ]
+      },
+      "id": "way/120774929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120838420",
+        "access:roof": "no",
+        "addr:full": "Jl. Kyai Haji Ali Maksum Krapyak",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Umum Veteran Patmasuri",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3599425,
+          -7.8299971
+        ]
+      },
+      "id": "way/120838420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/121642948",
+        "addr:full": "Jalan K.H. Ahmad Dahlan No. 20",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "RS PKU Muhammadiyah",
+        "website": "https://rspkujogja.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3624537,
+          -7.8006934
+        ]
+      },
+      "id": "way/121642948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/188171414",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "RS THT Dr. Pomo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3685714,
+          -7.8082181
+        ]
+      },
+      "id": "way/188171414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198739428",
+        "access:roof": "no",
+        "addr:full": "Jl. Jogja - Solo",
+        "amenity": "hospital",
+        "capacity:persons": "250-500",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Hotspot Panti Rini",
+        "name": "RS Panti Rini",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4665395,
+          -7.7716651
+        ]
+      },
+      "id": "way/198739428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233729584",
+        "addr:city": "Sleman",
+        "addr:housename": "Rumah Sakit Akademik UGM",
+        "addr:street": "Jalan Kabupaten",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "6",
+        "email": "humas.rsugm@ugm.ac.id",
+        "emergency": "yes",
+        "fax": "+62 274 4530606",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Akademik UGM",
+        "phone": "+62 274 4530404",
+        "website": "https://rsa.ugm.ac.id/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3504099,
+          -7.7431999
+        ]
+      },
+      "id": "way/233729584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/253273884",
+        "addr:city": "Yogyakarta",
+        "addr:full": "Jalan Hayam Wuruk No. 6 Yogyakarta",
+        "addr:street": "Jalan Hayam Wuruk",
+        "amenity": "hospital",
+        "check_date": "2025-07-15",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Bethesda Lempuyangwangi",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3730409,
+          -7.796421
+        ]
+      },
+      "id": "way/253273884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270040187",
+        "access:roof": "yes",
+        "addr:city": "Yogyakarta",
+        "addr:full": "Jalan Cik Di Tiro No 30",
+        "addr:housenumber": "30",
+        "addr:street": "Jalan Cik Di Tiro",
+        "amenity": "hospital",
+        "capacity:persons": ">500",
+        "contact:facebook": "https://www.facebook.com/pantirapihhospital",
+        "contact:instagram": "rspantirapihyogyakarta",
+        "contact:youtube": "https://www.youtube.com/c/RSPantiRapih",
+        "email": "admin@pantirapih.or.id",
+        "emergency": "yes",
+        "fax": "+62274564583",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Rumah Sakit Panti Rapih",
+        "operator:type": "private",
+        "phone": "+62274514014",
+        "source": "survey",
+        "website": "https://pantirapih.or.id/rspr/",
+        "wikidata": "Q7131849",
+        "wikimedia_commons": "Category:Panti Rapih Hospital",
+        "wikipedia": "id:Rumah Sakit Panti Rapih",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3776252,
+          -7.7771827
+        ]
+      },
+      "id": "way/270040187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/273660215",
+        "access:roof": "no",
+        "addr:full": "Jalan Jayaningprangan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "building:use": "medical",
+        "building:walls": "brick",
+        "capacity:persons": "50-100",
+        "height": "7.6",
+        "name": "Rumah Sakit Khusus Puri Nirmala",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3772333,
+          -7.8009235
+        ]
+      },
+      "id": "way/273660215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/337523520",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "ICC RSUP Dr. Sardjito",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.371417,
+          -7.7705799
+        ]
+      },
+      "id": "way/337523520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/349955138",
+        "addr:city": "Kabupaten Sleman",
+        "addr:full": "Jalan Wates KM 5.5, Ambarketawang, Sleman",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit PKU Muhammadiyah Gamping",
+        "operator:type": "community",
+        "website": "https://pkugamping.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3174774,
+          -7.8005273
+        ]
+      },
+      "id": "way/349955138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362511092",
+        "access:roof": "yes",
+        "addr:full": "Jalan Selokan Mataram",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Hermina",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4325755,
+          -7.7700612
+        ]
+      },
+      "id": "way/362511092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362876467",
+        "addr:city": "Kota Yogyakarta",
+        "addr:district": "Tegalrejo",
+        "addr:housename": "HI-LAB Laboratorium & Klinik",
+        "addr:housenumber": "156a-160",
+        "addr:postcode": "55242",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:street": "Jalan Magelang",
+        "addr:subdistrict": "Karangwaru",
+        "amenity": "hospital",
+        "healthcare": "laboratory;clinic;dentist",
+        "healthcare:speciality": "general;orthodontics;radiology;internal;vaccination;diagnostic_radiology;fertility;haematology",
+        "mobile": "(+62274) 557722",
+        "name": "HI-LAB Laboratorium & Klinik",
+        "official_name": "HI-LAB",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "operator": "PT. HI-LAB Internasional",
+        "operator:type": "private",
+        "phone": "+62 815-6605-658",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3614028,
+          -7.7742549
+        ]
+      },
+      "id": "way/362876467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363733122",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2025-12-19",
+        "healthcare": "hospital",
+        "name": "RS PKU muhammadiyah Sleman",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3579754,
+          -7.7094678
+        ]
+      },
+      "id": "way/363733122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363969384",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Sub Puskesmas Mlati 2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3285958,
+          -7.7487015
+        ]
+      },
+      "id": "way/363969384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/364887978",
+        "addr:full": "KRINGINAN",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "RS PARU PARU",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4643853,
+          -7.7732202
+        ]
+      },
+      "id": "way/364887978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/364888110",
+        "addr:full": "KRINGINAN",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "RS PARU PARU",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.464623,
+          -7.7732181
+        ]
+      },
+      "id": "way/364888110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374397543",
+        "access:roof": "no",
+        "addr:city": "Bantul",
+        "addr:full": "Jalan Soragan No.14, Soragan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "addr:housenumber": "4",
+        "addr:postcode": "55182",
+        "addr:street": "Soragan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "hospital",
+        "name": "RS Khusus Ibu dan Anak Adinda",
+        "operator": "Private",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3486988,
+          -7.7854417
+        ]
+      },
+      "id": "way/374397543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/377998703",
+        "addr:city": "Kota Yogyakarta",
+        "addr:full": "Jalan Jendral Sudirman No 70 Kotabaru",
+        "addr:housenumber": "70",
+        "addr:street": "Jalan Jenderal Sudirman",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Bethesda",
+        "operator:type": "private",
+        "phone": "+62 274 586688",
+        "source": "survey",
+        "website": "https://bethesda.or.id/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3773916,
+          -7.7839564
+        ]
+      },
+      "id": "way/377998703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396468395",
+        "access:roof": "yes",
+        "addr:full": "Jalan Kolonel Sugiono No 98 Yogyakarta",
+        "alt_name": "RS Pratama",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:colour": "white",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "5",
+        "building:levels:underground": "1",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "healthcare": "hospital",
+        "height": "20",
+        "max_level": "5",
+        "name": "Rumah Sakit Pratama",
+        "name:en": "Pratama Hospital",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3737144,
+          -7.8158504
+        ]
+      },
+      "id": "way/396468395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418521933",
+        "access:roof": "yes",
+        "addr:full": "Jalan Tino Sidin No.390, Kadipiro, Baru, Kdipiro, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "building:walls": "concrete",
+        "capacity:persons": "100-250",
+        "man_made": "clinic",
+        "name": "RS Khusus Ibu dan Anak Kahyangan",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3449631,
+          -7.7982805
+        ]
+      },
+      "id": "way/418521933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/491025622",
+        "access:roof": "no",
+        "addr:full": "Jalan Solo KM 14 Yogyakarta",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Bhayangkara",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.471613,
+          -7.7662052
+        ]
+      },
+      "id": "way/491025622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511889439",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "paediatrics;gynaecology",
+        "name": "RSKIA Permata Bunda",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3997245,
+          -7.8206723
+        ]
+      },
+      "id": "way/511889439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/511889458",
+        "access:roof": "no",
+        "addr:full": "Jl. Kemasan No.30, Purbayan, Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "healthcare": "hospital",
+        "healthcare:speciality": "paediatrics;gynaecology;general",
+        "name": "RSKIA PKU Muhammadiyah Kotagede",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4007525,
+          -7.8229229
+        ]
+      },
+      "id": "way/511889458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530763479",
+        "access:roof": "yes",
+        "addr:full": "Jalan Babarsari Tb 16 no 18",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "check_date": "2024-02-24",
+        "healthcare": "hospital",
+        "healthcare:speciality": "perinatologi;gynaecology;internal;anaesthetics;radiology;clinical_pathology",
+        "name": "RSKIA Sadewa",
+        "name:id": "RSKIA Sadewa",
+        "opening_hours": "24/7",
+        "source": "survey",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4158089,
+          -7.7711113
+        ]
+      },
+      "id": "way/530763479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533713529",
+        "addr:full": "Jl Wonosari Km 8,5Gandu,SendangTirto, Berbah,Sleman",
+        "amenity": "hospital",
+        "name": "Rumah Sakit Dharma",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4299554,
+          -7.8255062
+        ]
+      },
+      "id": "way/533713529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533746481",
+        "addr:full": "DELEGAN, SUMBERHARJO",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "RSUD PRAMBANAN",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4832671,
+          -7.8047113
+        ]
+      },
+      "id": "way/533746481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/535953749",
+        "access:roof": "yes",
+        "addr:full": "Jl. Ring Road Selatan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Rumah Sakit Khusus Bedah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3604094,
+          -7.8341552
+        ]
+      },
+      "id": "way/535953749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591454189",
+        "addr:full": "Jalan Wijaya Kusuma No.310, Sleman",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSKB SINDUADI",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3633696,
+          -7.7573539
+        ]
+      },
+      "id": "way/591454189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591475169",
+        "addr:full": "Jalan Juadi No 19",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Dr Soetarto",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3769937,
+          -7.7856307
+        ]
+      },
+      "id": "way/591475169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591934313",
+        "addr:full": "Jalan Ring Road Utara",
+        "addr:street": "Ring Road Utara",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit JIH",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4034681,
+          -7.7578094
+        ]
+      },
+      "id": "way/591934313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591938608",
+        "access:roof": "no",
+        "addr:full": "Jalan Wiratama No. 4",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Ludira Husada Tama",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.352903,
+          -7.7923811
+        ]
+      },
+      "id": "way/591938608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/594852354",
+        "addr:full": "Jl. Sidobali Muja Muju UH II/402 Telp. 0274-589090 Yogyakarta 55165",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:condition": "good",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Rumah Sakit Khusus Bedah Soedirman",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3975316,
+          -7.8006439
+        ]
+      },
+      "id": "way/594852354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/594852413",
+        "addr:full": "jalan golo no 33",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Rumah Sakit Bhakti Ibu",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3816394,
+          -7.81485
+        ]
+      },
+      "id": "way/594852413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610149135",
+        "access:roof": "yes",
+        "addr:full": "Jalan Colombo",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Khusus Bedah An-Nur",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.386838,
+          -7.778097
+        ]
+      },
+      "id": "way/610149135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610371884",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "RS THT Dr. Pomo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3686369,
+          -7.8082065
+        ]
+      },
+      "id": "way/610371884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610371885",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "RS THT Dr. Pomo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3685613,
+          -7.8085315
+        ]
+      },
+      "id": "way/610371885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610371886",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "RS THT Dr. Pomo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3685245,
+          -7.8084262
+        ]
+      },
+      "id": "way/610371886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610666540",
+        "access:roof": "no",
+        "addr:full": "jl patangpuluhan no.35",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "name": "RSKIA 45",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3460733,
+          -7.8075214
+        ]
+      },
+      "id": "way/610666540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610993613",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Ibu dan Anak Fajar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3499098,
+          -7.8085976
+        ]
+      },
+      "id": "way/610993613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613425525",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "RSKIA Rachmi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3565178,
+          -7.8036201
+        ]
+      },
+      "id": "way/613425525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613598097",
+        "access:roof": "no",
+        "addr:full": "Karangsari, Wedomartani, Ngemplak, Sleman",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "name": "Rumah Sakit Universitas Ahmad Dahlan",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4248621,
+          -7.7471255
+        ]
+      },
+      "id": "way/613598097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616082200",
+        "access:roof": "yes",
+        "addr:full": "Jalan Ipda Tut harsono No 53 jl Melati wetan",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RS Happy Land",
+        "operator:type": "government",
+        "source": "survey",
+        "website": "https://rshappyland.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3921868,
+          -7.7939635
+        ]
+      },
+      "id": "way/616082200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616211547",
+        "addr:full": "Jl.Veteran No.184, Pandeyan, Umbulharjo",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSI Hidayatullah",
+        "operator:type": "government",
+        "source": "survey",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3877007,
+          -7.8150629
+        ]
+      },
+      "id": "way/616211547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616520162",
+        "access:roof": "yes",
+        "addr:city": "Sleman",
+        "addr:full": "Jalan Kesehatan No. 1, Sinduadi, Mlati, Senolowo, Sinduadi, Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "RSUP Dr. Sardjito",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.372516,
+          -7.7687962
+        ]
+      },
+      "id": "way/616520162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616883613",
+        "addr:full": "Jalan Ringroad Barat No.118, Mlangi, Nogotirto, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55294",
+        "amenity": "hospital",
+        "name": "Rumah Sakit Umum Queen Latifa",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3370301,
+          -7.7626259
+        ]
+      },
+      "id": "way/616883613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617106472",
+        "addr:full": "Jalan Monjali No.106, Kutu Dukuh, Sinduadi, Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RS Sakina Idaman",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3678423,
+          -7.7675837
+        ]
+      },
+      "id": "way/617106472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619125299",
+        "access:roof": "no",
+        "addr:full": "jalan pleret, banguntapan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Rajawali Citra",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.410236,
+          -7.848608
+        ]
+      },
+      "id": "way/619125299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620278791",
+        "access:roof": "yes",
+        "addr:full": "Jalan Raya Tajem",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "4",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "name": "Rumah Sakit Medika Respati",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4337728,
+          -7.7483432
+        ]
+      },
+      "id": "way/620278791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620578145",
+        "addr:full": "Klaci I, Margoluwih, Seyegan, Sleman",
+        "amenity": "hospital",
+        "name": "Rumah Sakit At-Turots Al-Islamy",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2939203,
+          -7.7504498
+        ]
+      },
+      "id": "way/620578145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778464130",
+        "addr:city": "Yogyakarta",
+        "addr:street": "Jalan Cik Di Tiro",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology",
+        "name": "RS Mata Dr. Yap",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3744372,
+          -7.7805759
+        ]
+      },
+      "id": "way/778464130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/783886543",
+        "addr:city": "Bantul",
+        "addr:full": "Jalan Janti Yogyakarta, Lanud Adisutjipto, Jl. Ringroad Timur, Karang Janbe, Banguntapan, Kec. Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55198",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSPAU dr. S. Hardjolukito",
+        "operator:type": "government",
+        "website": "http://www.rspauhardjolukito.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4115735,
+          -7.7975098
+        ]
+      },
+      "id": "way/783886543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1066702261",
+        "addr:full": "jln jogja-solo",
+        "amenity": "hospital",
+        "capacity:persons": "250-500",
+        "healthcare": "hospital",
+        "name": "RSIY PDHI",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4584845,
+          -7.7757097
+        ]
+      },
+      "id": "way/1066702261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134408330",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Condong Catur",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4058082,
+          -7.7542708
+        ]
+      },
+      "id": "way/1134408330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134739784",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Permata Husada",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4082649,
+          -7.8657592
+        ]
+      },
+      "id": "way/1134739784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1138796873",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSU Mitra Paramedika",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4481859,
+          -7.7140698
+        ]
+      },
+      "id": "way/1138796873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1390717368",
+        "alt_name": "Bethesda Gym and Aerobic",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "systemic",
+        "name": "Stroke Center RS Bethesda",
+        "operator": "Yuni",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.37851,
+          -7.7835059
+        ]
+      },
+      "id": "way/1390717368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836618291",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Puskesmas Piyungan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4487055,
+          -7.8285417
+        ]
+      },
+      "id": "node/1836618291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2631261031",
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "705",
+        "addr:postcode": "55231",
+        "addr:street": "Jalan Tentara Rakyat Mataram",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Klinik Adhiwarga PKBI DIY",
+        "phone": "+62 274 586767",
+        "source": "http://www.pkbi-diy.info",
+        "website": "http://www.pkbi-diy.info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3570675,
+          -7.7851411
+        ]
+      },
+      "id": "node/2631261031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3724392322",
+        "amenity": "hospital",
+        "name": "RS Rajawali Citra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4102422,
+          -7.8483302
+        ]
+      },
+      "id": "node/3724392322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114148391",
+        "addr:street": "Jalan Palagan Tentara Pelajar",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "apotek kimia farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.373712,
+          -7.7444637
+        ]
+      },
+      "id": "node/4114148391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4590296608",
+        "amenity": "hospital",
+        "name": "condong catur apotik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4100586,
+          -7.7601905
+        ]
+      },
+      "id": "node/4590296608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5251324939",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Apotek Jongkang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3722805,
+          -7.7482207
+        ]
+      },
+      "id": "node/5251324939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7331641864",
+        "addr:city": "yogyakarta",
+        "addr:full": "Jalan Laksda Adisucipto No.32-34, Demangan, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55221",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Siloam Yogyakarta",
+        "operator:type": "private",
+        "source": "survey",
+        "website": "https://www.siloamhospitals.com/",
+        "wikidata": "Q19731706",
+        "wikimedia_commons": "Category:Siloam Hospitals",
+        "wikipedia": "id:Rumah Sakit Siloam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3908845,
+          -7.7833994
+        ]
+      },
+      "id": "node/7331641864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233361241",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Health Architecture Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3320585,
+          -7.7677372
+        ]
+      },
+      "id": "node/9233361241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9837629180",
+        "healthcare": "hospital",
+        "name": "ICU RSUP Dr. Sardjito",
+        "operator": "RSUP Dr. Sardjito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3723069,
+          -7.769233
+        ]
+      },
+      "id": "node/9837629180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10720341447",
+        "addr:city": "Yogyakarta",
+        "addr:postcode": "55184",
+        "addr:street": "Gg. Nakula, Kalirandu, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul,",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "herbalism;body;aromatherapy;family_medicine;community",
+        "name": "RSH IN CARE (Rumah Sehat Holistik) - Bekam Jogja",
+        "operator": "HIINCARE",
+        "operator:type": "public",
+        "phone": "+6281211595471",
+        "website": "s.id/hiincare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3097744,
+          -7.8387586
+        ]
+      },
+      "id": "node/10720341447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11874507249",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "grahita indonesia jogja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3937875,
+          -7.7262356
+        ]
+      },
+      "id": "node/11874507249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875080903",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "PSIKOLOGI PARADIGMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3431439,
+          -7.8116781
+        ]
+      },
+      "id": "node/11875080903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875158121",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Arkandina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4017351,
+          -7.8405612
+        ]
+      },
+      "id": "node/11875158121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875160993",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Lembaga Psikologi Terapan DELTA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3395166,
+          -7.7633501
+        ]
+      },
+      "id": "node/11875160993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875162815",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Praktik Psikolog Nadia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3222196,
+          -7.7785173
+        ]
+      },
+      "id": "node/11875162815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875177363",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Humaira Consulting (Konsultan Psikologi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3201938,
+          -7.8102559
+        ]
+      },
+      "id": "node/11875177363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875182883",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "RUMAH NGOBROL BUNDA WENING"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3895273,
+          -7.8424234
+        ]
+      },
+      "id": "node/11875182883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875191688",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Biro Konsultasi Psikologi PARIPURNA Yogyakarta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3062511,
+          -7.7738367
+        ]
+      },
+      "id": "node/11875191688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875197527",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Biro Psikologi Metamorfosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3298078,
+          -7.8024702
+        ]
+      },
+      "id": "node/11875197527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11919849132",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PUSKESMAS BANGUNTAPAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.413987,
+          -7.8291876
+        ]
+      },
+      "id": "node/11919849132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12298790416",
+        "addr:street": "Jalan Wijaya Kusuma",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery",
+        "name": "Rumah Sakit Khusus Bedah (RSKB) Sinduadi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3633677,
+          -7.7573565
+        ]
+      },
+      "id": "node/12298790416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12846795692",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "DKT",
+        "operator": "Gilang",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3769516,
+          -7.7856374
+        ]
+      },
+      "id": "node/12846795692"
+    }
+  ]
+}
