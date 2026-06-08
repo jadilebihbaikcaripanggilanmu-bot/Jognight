@@ -1,0 +1,527 @@
+{
+  "type": "FeatureCollection",
+  "name": "JOGNIGHT Ruas Jalan Waspada Malam",
+  "metadata": {
+    "description": "Dataset indikatif/manual berbasis pemberitaan online. Bukan data kriminalitas resmi dan wajib divalidasi ulang sebelum dipakai sebagai dasar keputusan keselamatan.",
+    "created_for": "JOGNIGHT WebGIS",
+    "updated": "2026-06-08"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3788,
+            -7.7833
+          ],
+          [
+            110.3868,
+            -7.783
+          ],
+          [
+            110.397,
+            -7.783
+          ],
+          [
+            110.4078,
+            -7.7825
+          ],
+          [
+            110.4182,
+            -7.7818
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Solo / Laksda Adisutjipto",
+        "incident": "Disebut dalam pemberitaan sebagai area rawan kekerasan jalanan/klitih dan pernah terjadi peristiwa di penggal Jembatan Gajah Wong.",
+        "year": "2021–2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - titik/kawasan rawan klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1131123/ada-5-titik-rawan-klitih-di-jogja-puluhan-remaja-sudah-terjaring-selama-ramadan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3602,
+            -7.7835
+          ],
+          [
+            110.3576,
+            -7.7708
+          ],
+          [
+            110.356,
+            -7.7588
+          ],
+          [
+            110.3542,
+            -7.7448
+          ],
+          [
+            110.3517,
+            -7.7312
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Magelang",
+        "incident": "Disebut Satpol PP Jogja sebagai salah satu titik yang sering menjadi tempat remaja berkumpul hingga pagi dan rawan kekerasan jalanan.",
+        "year": "2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - 5 titik rawan klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1131123/ada-5-titik-rawan-klitih-di-jogja-puluhan-remaja-sudah-terjaring-selama-ramadan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3772,
+            -7.7899
+          ],
+          [
+            110.3826,
+            -7.7897
+          ],
+          [
+            110.3892,
+            -7.7897
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Gondosuli",
+        "incident": "Disebut Satpol PP Jogja sebagai salah satu titik rawan kekerasan jalanan karena aktivitas nongkrong remaja pada malam/dini hari.",
+        "year": "2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - 5 titik rawan klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1131123/ada-5-titik-rawan-klitih-di-jogja-puluhan-remaja-sudah-terjaring-selama-ramadan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3785,
+            -7.801
+          ],
+          [
+            110.3865,
+            -7.801
+          ],
+          [
+            110.3965,
+            -7.8012
+          ],
+          [
+            110.4055,
+            -7.8014
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Kusumanegara",
+        "incident": "Disebut Satpol PP Jogja sebagai salah satu titik rawan kekerasan jalanan pada malam/dini hari.",
+        "year": "2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - 5 titik rawan klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1131123/ada-5-titik-rawan-klitih-di-jogja-puluhan-remaja-sudah-terjaring-selama-ramadan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3604,
+            -7.7837
+          ],
+          [
+            110.366,
+            -7.7831
+          ],
+          [
+            110.3717,
+            -7.7827
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Diponegoro",
+        "incident": "Disebut Satpol PP Jogja sebagai salah satu titik rawan kekerasan jalanan/klitih.",
+        "year": "2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - 5 titik rawan klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1131123/ada-5-titik-rawan-klitih-di-jogja-puluhan-remaja-sudah-terjaring-selama-ramadan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.395,
+            -7.8056
+          ],
+          [
+            110.3976,
+            -7.813
+          ],
+          [
+            110.3993,
+            -7.8208
+          ],
+          [
+            110.4004,
+            -7.8278
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Gedongkuning",
+        "incident": "Pernah diberitakan sebagai kawasan kejadian klitih/kejahatan jalanan di Jogja.",
+        "year": "2022–2023",
+        "severity": 3,
+        "source_title": "Harian Jogja - 7 kawasan pernah terjadi klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1126656/7-kawasan-di-jogja-yang-pernah-terjadi-klitih-nomor-7-malah-di-pusat-keramaian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3792,
+            -7.8086
+          ],
+          [
+            110.3865,
+            -7.8094
+          ],
+          [
+            110.3943,
+            -7.8114
+          ],
+          [
+            110.3993,
+            -7.8134
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Veteran",
+        "incident": "Pernah diberitakan sebagai kawasan kejadian klitih/kejahatan jalanan.",
+        "year": "2022–2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - 7 kawasan pernah terjadi klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1126656/7-kawasan-di-jogja-yang-pernah-terjadi-klitih-nomor-7-malah-di-pusat-keramaian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3657,
+            -7.789
+          ],
+          [
+            110.3658,
+            -7.7948
+          ],
+          [
+            110.3658,
+            -7.8009
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Malioboro – Titik Nol Jogja",
+        "incident": "Pemberitaan menyebut perselisihan dari Jalan Malioboro berlanjut ke Titik Nol Jogja dan berujung kasus kekerasan jalanan.",
+        "year": "2023",
+        "severity": 2,
+        "source_title": "Harian Jogja - klitih Titik Nol Jogja",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1125910/beda-pengakuan-pelaku-dan-korban-klitih-titik-nol-jogja-antara-berkelahi-dan-memotong-jalan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3815,
+            -7.789
+          ],
+          [
+            110.3865,
+            -7.789
+          ],
+          [
+            110.391,
+            -7.7893
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Pengok Kidul, Baciro",
+        "incident": "JPW mencatat peristiwa kejahatan jalanan pada Januari 2025 di depan Gedung Asrama Kujang, Jalan Pengok Kidul, Baciro.",
+        "year": "2025",
+        "severity": 2,
+        "source_title": "Harian Jogja / Bernas - kejahatan jalanan DIY 2025",
+        "source_url": "https://jogjapolitan.harianjogja.com/read/2025/07/16/510/1220817/hingga-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3192,
+            -7.7652
+          ],
+          [
+            110.3275,
+            -7.765
+          ],
+          [
+            110.3364,
+            -7.7646
+          ],
+          [
+            110.345,
+            -7.7644
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Siliwangi / Selokan Mataram, Gamping",
+        "incident": "JPW mencatat aksi klitih pada Maret 2025 di Jalan Siliwangi, Selokan Mataram, Trihanggo, Gamping, Sleman.",
+        "year": "2025",
+        "severity": 2,
+        "source_title": "Bernas - semester pertama 2025 kasus klitih DIY",
+        "source_url": "https://www.bernas.id/2025/07/231226/semester-pertama-tahun-2025-jpw-mencatat-sejumlah-kasus-klitih-di-yogyakarta/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.347,
+            -7.946
+          ],
+          [
+            110.37,
+            -7.95
+          ],
+          [
+            110.395,
+            -7.955
+          ],
+          [
+            110.42,
+            -7.961
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Panggang–Siluk, Imogiri",
+        "incident": "Pernah diberitakan lebih dari satu kasus kejahatan jalanan/klitih pada ruas Panggang–Siluk, Selopamioro, Imogiri.",
+        "year": "2016–2023",
+        "severity": 3,
+        "source_title": "Harian Jogja - 7 kawasan pernah terjadi klitih",
+        "source_url": "https://jogjapolitan.harianjogja.com/r-1126656/7-kawasan-di-jogja-yang-pernah-terjadi-klitih-nomor-7-malah-di-pusat-keramaian"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.389,
+            -7.6435
+          ],
+          [
+            110.399,
+            -7.6396
+          ],
+          [
+            110.411,
+            -7.6365
+          ],
+          [
+            110.423,
+            -7.6348
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Somoitan – Girikerto, Turi",
+        "incident": "Pemberitaan Januari 2025 menyebut aksi klitih di jalan menuju Kelurahan Girikerto, Turi, tepatnya Dusun Somoitan.",
+        "year": "2025",
+        "severity": 2,
+        "source_title": "detikJogja / Hariane - klitih Turi Sleman",
+        "source_url": "https://www.detik.com/jogja/berita/d-7717010/viral-klitih-sabet-gesper-di-turi-sleman-hingga-korban-terjatuh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3265,
+            -8.0045
+          ],
+          [
+            110.327,
+            -8.0125
+          ],
+          [
+            110.3276,
+            -8.021
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor SPBU Parangtritis, Kretek",
+        "incident": "JPW mencatat aksi klitih pada Maret 2025 di area SPBU Parangtritis, Kretek, Bantul.",
+        "year": "2025",
+        "severity": 2,
+        "source_title": "Bernas - semester pertama 2025 kasus klitih DIY",
+        "source_url": "https://www.bernas.id/2025/07/231226/semester-pertama-tahun-2025-jpw-mencatat-sejumlah-kasus-klitih-di-yogyakarta/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3835,
+            -7.6335
+          ],
+          [
+            110.394,
+            -7.6315
+          ],
+          [
+            110.405,
+            -7.6298
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Jl Kepitu, Turi",
+        "incident": "JPW mencatat peristiwa di Jalan Kepitu, Turi, Sleman pada 2025; catatan ini perlu divalidasi karena pemberitaan juga menyebut perkembangan keterangan korban.",
+        "year": "2025",
+        "severity": 1,
+        "source_title": "Bernas - semester pertama 2025 kasus klitih DIY",
+        "source_url": "https://www.bernas.id/2025/07/231226/semester-pertama-tahun-2025-jpw-mencatat-sejumlah-kasus-klitih-di-yogyakarta/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.099,
+            -7.904
+          ],
+          [
+            110.111,
+            -7.908
+          ],
+          [
+            110.126,
+            -7.91
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Tayuban, Panjatan, Kulon Progo",
+        "incident": "JPW mencatat peristiwa kejahatan jalanan pada Januari 2025 di Jalan Kalurahan Tayuban, Panjatan, Kulon Progo.",
+        "year": "2025",
+        "severity": 1,
+        "source_title": "Harian Jogja / Bernas - kejahatan jalanan DIY 2025",
+        "source_url": "https://jogjapolitan.harianjogja.com/read/2025/07/16/510/1220817/hingga-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.354,
+            -7.8485
+          ],
+          [
+            110.361,
+            -7.852
+          ],
+          [
+            110.368,
+            -7.855
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Ngijo – Bangunharjo, Sewon",
+        "incident": "JPW mencatat aksi kejahatan jalanan pada Januari 2025 di Dusun Ngijo, Bangunharjo, Sewon, Bantul.",
+        "year": "2025",
+        "severity": 1,
+        "source_title": "Harian Jogja / Bernas - kejahatan jalanan DIY 2025",
+        "source_url": "https://jogjapolitan.harianjogja.com/read/2025/07/16/510/1220817/hingga-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.423,
+            -7.7705
+          ],
+          [
+            110.431,
+            -7.7712
+          ],
+          [
+            110.439,
+            -7.772
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Koridor Kradenan – Maguwoharjo, Depok",
+        "incident": "JPW mencatat aksi klitih pada Februari 2025 di Dusun Kradenan, Maguwoharjo, Depok, Sleman.",
+        "year": "2025",
+        "severity": 1,
+        "source_title": "Bernas - semester pertama 2025 kasus klitih DIY",
+        "source_url": "https://www.bernas.id/2025/07/231226/semester-pertama-tahun-2025-jpw-mencatat-sejumlah-kasus-klitih-di-yogyakarta/"
+      }
+    }
+  ]
+}
