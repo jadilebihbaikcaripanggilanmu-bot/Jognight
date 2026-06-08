@@ -74,6 +74,14 @@ const I18N = {
     cctvTitle: 'CCTV',
     hospitalTitle: 'RS / Klinik',
     policeTitle: 'Kantor Polisi',
+    warningRoads: 'Ruas waspada malam',
+    warningRoadNear: 'Ruas waspada',
+    warningRoadsAlong: 'Ruas jalan yang perlu diwaspadai',
+    noNearbyWarningRoad: 'Tidak ada ruas waspada yang dekat dengan rute.',
+    incidentType: 'Jenis catatan',
+    source: 'Sumber',
+    openSource: 'Baca sumber',
+    watchlistNote: 'Layer ini bersifat indikatif berdasarkan pemberitaan dan perlu divalidasi ulang.',
     minutesShort: 'menit'
   },
   en: {
@@ -144,77 +152,93 @@ const I18N = {
     cctvTitle: 'CCTV',
     hospitalTitle: 'Hospital / Clinic',
     policeTitle: 'Police Office',
+    warningRoads: 'Night watchlist roads',
+    warningRoadNear: 'Watchlist roads',
+    warningRoadsAlong: 'Road segments to watch',
+    noNearbyWarningRoad: 'No watchlist road segment found near the route.',
+    incidentType: 'Record type',
+    source: 'Source',
+    openSource: 'Read source',
+    watchlistNote: 'This layer is indicative based on news reports and should be re-validated.',
     minutesShort: 'min'
 
   },
   jv: {
-    appTagline: 'Keamanan lan Mobilitas Wengi',
-    routeInput: 'Input Rute',
-    origin: 'Asal',
-    destination: 'Tujuan',
-    useMyLocation: 'Gunakake lokasiku',
-    findingLocation: 'Njupuk lokasi...',
-    findSafeRoute: 'Golek rute aman',
-    calculating: 'Ngitung...',
-    reset: 'Reset',
-    routeInfo: 'Info Rute',
-    noRouteYet: 'Pilih asal lan tujuan, banjur klik Golek rute aman.',
-    selectedRoute: 'Rute kapilih',
-    score: 'Skor aman',
-    distance: 'Jarak',
-    estimate: 'Prakiraan',
-    cctvNear: 'CCTV cedhak',
+    appTagline: 'Kaslametan saha Mobilitas Wanci Dalu',
+    routeInput: 'Isian Rute',
+    origin: 'Papan Wiwitan',
+    destination: 'Papan Tujuan',
+    useMyLocation: 'Ginakaken panggènan kula',
+    findingLocation: 'Saweg madosi panggènan...',
+    findSafeRoute: 'Pados rute ingkang langkung aman',
+    calculating: 'Saweg dipunétang...',
+    reset: 'Wangsulaken',
+    routeInfo: 'Informasi Rute',
+    noRouteYet: 'Mangga pilih papan wiwitan saha papan tujuan, lajeng klik Pados rute ingkang langkung aman.',
+    selectedRoute: 'Rute ingkang kapilih',
+    score: 'Skor kaslametan',
+    distance: 'Tebihipun',
+    estimate: 'Prakiraan wekdal',
+    cctvNear: 'CCTV caket',
     hospitalNear: 'RS / Klinik',
-    policeNear: 'Polisi',
-    spbuNear: 'SPBU cedhak',
+    policeNear: 'Kepolisian',
+    spbuNear: 'SPBU caket',
     store24Near: 'Toko 24 jam',
-    directions: 'Pandhuan awal',
-    cctvAlong: 'CCTV cedhak rute',
-    bestRoute: 'Rute paling apik',
+    directions: 'Pitedah wiwitan',
+    cctvAlong: 'CCTV caket rute',
+    bestRoute: 'Rute paling sae',
     alternativeRoute: 'Rute alternatif',
-    commonSettings: 'Pangaturan umum',
+    commonSettings: 'Panyetelan umum',
     language: 'Basa',
-    callCentre: 'Pusat Pitulungan',
-    nearestHelp: 'Bantuan paling cedhak',
-    nearestHospital: 'RS paling cedhak',
-    nearestPolice: 'Polisi paling cedhak',
-    policeButton: '110 Polisi',
+    callCentre: 'Pusat Pambiyantu',
+    nearestHelp: 'Pambiyantu paling caket',
+    nearestHospital: 'RS paling caket',
+    nearestPolice: 'Kepolisian paling caket',
+    policeButton: '110 Kepolisian',
     ambulanceButton: '119 Ambulans',
-    openStream: 'Bukak stream',
-    openPortal: 'Portal CCTV',
-    openGoogleMaps: 'Terusna ing Google Maps',
-    openWebsite: 'Bukak website',
-    openLocation: 'Bukak lokasi',
-    searchWeb: 'Golek web',
-    callHospital: 'Hubungi RS',
-    callOffice: 'Hubungi kantor',
-    callPolice: 'Hubungi 110',
-    policeOffice: 'Kantor Polisi',
+    openStream: 'Bikak siaran',
+    openPortal: 'Bikak Portal CCTV',
+    openGoogleMaps: 'Lajengaken wonten Google Maps',
+    openWebsite: 'Bikak situs web',
+    openLocation: 'Bikak lokasi',
+    searchWeb: 'Padosi ing web',
+    callHospital: 'Sambungi RS',
+    callOffice: 'Sambungi kantor',
+    callPolice: 'Sambungi 110',
+    policeOffice: 'Kantor Kepolisian',
     hospitalClinic: 'RS / Klinik',
     cctv: 'CCTV',
-    unavailable: 'Durung kasedhiya',
-    noNearbyCctv: 'Ora ana CCTV cedhak rute.',
+    unavailable: 'Dereng kasedhiya',
+    noNearbyCctv: 'Dereng wonten CCTV ingkang caket kaliyan rute.',
     spbuTitle: 'SPBU / Pom Bensin',
     store24Title: 'Toko / Warung 24 Jam',
-    nearestSpbu: 'SPBU paling cedhak',
-    nearestStore24: 'Toko/warung 24 jam paling cedhak',
+    nearestSpbu: 'SPBU paling caket',
+    nearestStore24: 'Toko/warung 24 jam paling caket',
     routeType: {
       balanced: 'Imbang',
       short: 'Paling cendhak',
-      less_maneuvers: 'Sithik belokan'
+      less_maneuvers: 'Belokan langkung sekedhik'
     },
     placeholders: {
-      origin: 'Tuladha: Tugu Yogyakarta',
-      destination: 'Tuladha: UGM'
+      origin: 'Tuladhanipun: Tugu Yogyakarta',
+      destination: 'Tuladhanipun: UGM'
     },
-    stepsFallback: 'Pandhuan durung kasedhiya.',
-    autocompleteEmpty: 'Ora ana saran lokasi',
-    routePopupStart: 'Asal',
-    routePopupEnd: 'Tujuan',
-    routeGenerated: 'Rute aman wis kasil diitung.',
+    stepsFallback: 'Pitedah dereng kasedhiya.',
+    autocompleteEmpty: 'Dereng wonten saran lokasi',
+    routePopupStart: 'Papan Wiwitan',
+    routePopupEnd: 'Papan Tujuan',
+    routeGenerated: 'Rute ingkang langkung aman sampun kasil dipunétang.',
     cctvTitle: 'CCTV',
     hospitalTitle: 'RS / Klinik',
-    policeTitle: 'Kantor Polisi',
+    policeTitle: 'Kantor Kepolisian',
+    warningRoads: 'Ruas margi waspada dalu',
+    warningRoadNear: 'Ruas waspada',
+    warningRoadsAlong: 'Ruas margi ingkang prayogi dipunwaspadai',
+    noNearbyWarningRoad: 'Dereng wonten ruas waspada ingkang caket kaliyan rute.',
+    incidentType: 'Jinis cathetan',
+    source: 'Sumber',
+    openSource: 'Maos sumber',
+    watchlistNote: 'Layer punika namung pratandha adhedhasar pawartos saha kedah dipunvalidasi malih.',
     minutesShort: 'menit'
   }
 };
@@ -226,6 +250,7 @@ const state = {
     police: EMPTY_GEOJSON,
     spbu: EMPTY_GEOJSON,
     store24: EMPTY_GEOJSON,
+    warningRoads: EMPTY_GEOJSON,
   },
   localPlaces: [],
   originPlace: null,
@@ -277,7 +302,8 @@ const dataFiles = {
   police: 'data/police.geojson',
   places: 'data/places.json',
   spbu: 'data/spbu.geojson',
-  store24: 'data/stores24.geojson'
+  store24: 'data/stores24.geojson',
+  warningRoads: 'data/warning_roads.geojson'
 };
 
 init().catch((err) => {
@@ -364,12 +390,13 @@ async function loadJSON(url, fallback) {
 }
 
 async function loadAllData() {
-  const [cctv, hospitals, police, spbu, store24, places] = await Promise.all([
+  const [cctv, hospitals, police, spbu, store24, warningRoads, places] = await Promise.all([
     loadJSON(dataFiles.cctv, EMPTY_GEOJSON),
     loadJSON(dataFiles.hospitals, EMPTY_GEOJSON),
     loadJSON(dataFiles.police, EMPTY_GEOJSON),
     loadJSON(dataFiles.spbu, EMPTY_GEOJSON),
     loadJSON(dataFiles.store24, EMPTY_GEOJSON),
+    loadJSON(dataFiles.warningRoads, EMPTY_GEOJSON),
     loadJSON(dataFiles.places, EMPTY_ARRAY)
   ]);
 
@@ -387,6 +414,9 @@ async function loadAllData() {
   state.datasets.police = await getBestOperationalDataset('police', staticPolice);
   state.datasets.spbu = await getBestOperationalDataset('fuel', staticSpbu);
   state.datasets.store24 = await getBestOperationalDataset('store24', staticStore24);
+
+  // Ruas jalan waspada malam bersifat indikatif dari pemberitaan/validasi manual.
+  state.datasets.warningRoads = normalizeLineGeojson(warningRoads);
 
   state.localPlaces = Array.isArray(places) ? places : [];
 }
@@ -539,6 +569,25 @@ function normalizeGeojson(geojson) {
   return normalized;
 }
 
+function normalizeLineGeojson(geojson) {
+  const normalized = geojson && geojson.type === 'FeatureCollection' ? structuredClone(geojson) : structuredClone(EMPTY_GEOJSON);
+  normalized.features = (normalized.features || []).filter((feature) => {
+    const geometry = feature?.geometry || {};
+    if (geometry.type === 'LineString') {
+      return Array.isArray(geometry.coordinates) && geometry.coordinates.length >= 2 && geometry.coordinates.every(isValidLngLat);
+    }
+    if (geometry.type === 'MultiLineString') {
+      return Array.isArray(geometry.coordinates) && geometry.coordinates.some((line) => Array.isArray(line) && line.length >= 2 && line.every(isValidLngLat));
+    }
+    return false;
+  });
+  return normalized;
+}
+
+function isValidLngLat(coord) {
+  return Array.isArray(coord) && coord.length >= 2 && Number.isFinite(Number(coord[0])) && Number.isFinite(Number(coord[1]));
+}
+
 function buildOperationalLayers() {
   Object.values(state.layers).forEach((layer) => layer && map.removeLayer(layer));
 
@@ -568,6 +617,19 @@ function buildOperationalLayers() {
     pointToLayer: (feature, latlng) => L.marker(latlng, { icon: createFacilityIcon('store24') }),
     onEachFeature: (feature, layer) => layer.bindPopup(buildStore24Popup(buildStore24Info(feature)))
   });
+
+  // Layer ruas waspada ditampilkan default karena jumlah fiturnya sedikit dan penting untuk konteks rute malam.
+  state.layers.warningRoads = L.geoJSON(state.datasets.warningRoads, {
+    style: (feature) => ({
+      color: getWarningRoadColor(feature),
+      weight: 7,
+      opacity: 0.88,
+      dashArray: '10 8',
+      lineCap: 'round',
+      lineJoin: 'round'
+    }),
+    onEachFeature: (feature, layer) => layer.bindPopup(buildWarningRoadPopup(buildWarningRoadInfo(feature)))
+  }).addTo(map);
 }
 
 function buildLayerControl() {
@@ -582,6 +644,7 @@ function buildLayerControl() {
     [layerLabelHtml('police', t('policeOffice'))]: state.layers.police,
     [layerLabelHtml('spbu', t('spbuTitle'))]: state.layers.spbu,
     [layerLabelHtml('store24', t('store24Title'))]: state.layers.store24,
+    [layerLabelHtml('warning-road', t('warningRoads'))]: state.layers.warningRoads,
   };
 
   state.layerControl = L.control.layers(null, overlays, {
@@ -594,7 +657,8 @@ function buildLayerControl() {
 }
 
 function layerLabelHtml(type, label) {
-  return `<span class="layer-inline"><span class="layer-dot ${type}"></span>${escapeHtml(label)}</span>`;
+  const dotStyle = type === 'warning-road' ? ' style="background:#ef4444;box-shadow:0 0 0 2px rgba(239,68,68,.18);"' : '';
+  return `<span class="layer-inline"><span class="layer-dot ${type}"${dotStyle}></span>${escapeHtml(label)}</span>`;
 }
 
 function bindUI() {
@@ -776,14 +840,14 @@ function setPointMarker(type, place) {
 
 function useMyLocation() {
   if (!navigator.geolocation) {
-    alert('Browser tidak mendukung geolocation.');
+    alert(state.language === 'jv' ? 'Peramban dereng nyengkuyung geolocation.' : 'Browser tidak mendukung geolocation.');
     return;
   }
   dom.useMyLocationBtn.disabled = true;
   dom.useMyLocationBtn.textContent = t('findingLocation');
   navigator.geolocation.getCurrentPosition(
     (pos) => {
-      const place = { id: 'my_location', name: state.language === 'en' ? 'My Location' : (state.language === 'jv' ? 'Lokasiku' : 'Lokasi Saya'), lat: pos.coords.latitude, lng: pos.coords.longitude };
+      const place = { id: 'my_location', name: state.language === 'en' ? 'My Location' : (state.language === 'jv' ? 'Panggènan Kula' : 'Lokasi Saya'), lat: pos.coords.latitude, lng: pos.coords.longitude };
       state.originPlace = place;
       dom.originInput.value = place.name;
       setPointMarker('origin', place);
@@ -802,7 +866,7 @@ function useMyLocation() {
 
 async function drawSafeRoute() {
   if (!state.originPlace || !state.destinationPlace) {
-    alert(state.language === 'en' ? 'Please fill origin and destination first.' : 'Isi asal dan tujuan dulu.');
+    alert(state.language === 'en' ? 'Please fill origin and destination first.' : (state.language === 'jv' ? 'Mangga isi papan wiwitan saha papan tujuan rumiyin.' : 'Isi asal dan tujuan dulu.'));
     return;
   }
 
@@ -811,7 +875,7 @@ async function drawSafeRoute() {
     dom.drawRouteBtn.textContent = t('calculating');
 
     const candidates = await fetchCandidateRoutes(state.originPlace, state.destinationPlace);
-    if (!candidates.length) throw new Error(state.language === 'en' ? 'No route candidate was returned.' : 'Tidak ada kandidat rute yang berhasil dihitung.');
+    if (!candidates.length) throw new Error(state.language === 'en' ? 'No route candidate was returned.' : (state.language === 'jv' ? 'Dereng wonten kandidat rute ingkang kasil dipunétang.' : 'Tidak ada kandidat rute yang berhasil dihitung.'));
 
     candidates.forEach((route) => scoreRoute(route));
     candidates.sort((a, b) => b.properties.safety_score - a.properties.safety_score);
@@ -826,7 +890,7 @@ async function drawSafeRoute() {
     renderCallCentre(routeAnchorCoord(state.routeResult.best));
   } catch (err) {
     console.error(err);
-    alert(`${state.language === 'en' ? 'Route error' : 'Gagal bikin rute'}: ${err.message}`);
+    alert(`${state.language === 'en' ? 'Route error' : (state.language === 'jv' ? 'Rute dereng kasil' : 'Gagal bikin rute')}: ${err.message}`);
   } finally {
     dom.drawRouteBtn.disabled = false;
     dom.drawRouteBtn.textContent = t('findSafeRoute');
@@ -868,7 +932,18 @@ function scoreRoute(routeFeature) {
   const policeNear = countPointsNearRoute(state.datasets.police.features, routeFeature, APP_CONFIG.scoring.policeNearMeters);
   const spbuNear = countPointsNearRoute(state.datasets.spbu.features, routeFeature, APP_CONFIG.scoring.spbuNearMeters);
   const store24Near = countPointsNearRoute(state.datasets.store24.features, routeFeature, APP_CONFIG.scoring.store24NearMeters);
+  const warningRoadsNear = findWarningRoadsNearRoute(
+    state.datasets.warningRoads.features,
+    routeFeature,
+    APP_CONFIG.scoring.warningRoadNearMeters || 120
+  );
   const distanceMeters = Number(routeFeature.properties.distance || 0);
+
+  const warningPenaltyWeight = APP_CONFIG.scoring.weights.warningRoad ?? -12;
+  const warningPenalty = warningRoadsNear.reduce((sum, item) => {
+    const severity = Number(item.feature.properties?.severity || 1);
+    return sum + (severity * warningPenaltyWeight);
+  }, 0);
 
   const score = (
     100 +
@@ -877,15 +952,17 @@ function scoreRoute(routeFeature) {
     (hospitalNear.length * APP_CONFIG.scoring.weights.hospital) +
     (policeNear.length * APP_CONFIG.scoring.weights.police) +
     (spbuNear.length * APP_CONFIG.scoring.weights.spbu) +
-    (store24Near.length * APP_CONFIG.scoring.weights.store24)
+    (store24Near.length * APP_CONFIG.scoring.weights.store24) +
+    warningPenalty
   );
 
-  routeFeature.properties.safety_score = score;
+  routeFeature.properties.safety_score = Math.max(0, score);
   routeFeature.properties.cctv_near = cctvNear;
   routeFeature.properties.hospital_near = hospitalNear;
   routeFeature.properties.police_near = policeNear;
   routeFeature.properties.spbu_near = spbuNear;
   routeFeature.properties.store24_near = store24Near;
+  routeFeature.properties.warning_roads_near = warningRoadsNear;
 }
 
 function countPointsNearRoute(pointFeatures, routeFeature, maxMeters) {
@@ -899,6 +976,60 @@ function countPointsNearRoute(pointFeatures, routeFeature, maxMeters) {
     .sort((a, b) => a.distMeters - b.distMeters);
 }
 
+function findWarningRoadsNearRoute(warningRoadFeatures, routeFeature, maxMeters) {
+  if (!warningRoadFeatures?.length) return [];
+  return warningRoadFeatures
+    .map((feature) => ({
+      feature,
+      distMeters: minLineDistanceMeters(routeFeature, feature)
+    }))
+    .filter((item) => item.distMeters <= maxMeters)
+    .sort((a, b) => a.distMeters - b.distMeters);
+}
+
+function minLineDistanceMeters(featureA, featureB) {
+  const linesA = getFeatureLineFeatures(featureA);
+  const linesB = getFeatureLineFeatures(featureB);
+  if (!linesA.length || !linesB.length) return Number.POSITIVE_INFINITY;
+
+  let minDistance = Number.POSITIVE_INFINITY;
+
+  linesA.forEach((lineA) => {
+    const coordsA = lineA.geometry.coordinates || [];
+    const sampleA = sampleLineCoordinates(coordsA);
+    linesB.forEach((lineB) => {
+      sampleA.forEach((coord) => {
+        const d = turf.pointToLineDistance(turf.point(coord), lineB, { units: 'kilometers' }) * 1000;
+        if (d < minDistance) minDistance = d;
+      });
+    });
+  });
+
+  linesB.forEach((lineB) => {
+    const coordsB = lineB.geometry.coordinates || [];
+    const sampleB = sampleLineCoordinates(coordsB);
+    linesA.forEach((lineA) => {
+      sampleB.forEach((coord) => {
+        const d = turf.pointToLineDistance(turf.point(coord), lineA, { units: 'kilometers' }) * 1000;
+        if (d < minDistance) minDistance = d;
+      });
+    });
+  });
+
+  return minDistance;
+}
+
+function sampleLineCoordinates(coords, maxSamples = 24) {
+  if (!Array.isArray(coords) || coords.length <= maxSamples) return coords || [];
+  const samples = [coords[0]];
+  const step = Math.max(1, Math.floor(coords.length / (maxSamples - 2)));
+  for (let i = step; i < coords.length - 1 && samples.length < maxSamples - 1; i += step) {
+    samples.push(coords[i]);
+  }
+  samples.push(coords[coords.length - 1]);
+  return samples;
+}
+
 function getRouteCoordinateLines(routeFeature) {
   if (!routeFeature?.geometry) return [];
   if (routeFeature.geometry.type === 'LineString') return [routeFeature.geometry.coordinates || []];
@@ -907,9 +1038,23 @@ function getRouteCoordinateLines(routeFeature) {
 }
 
 function getRouteLineFeatures(routeFeature) {
-  return getRouteCoordinateLines(routeFeature)
-    .filter((coords) => Array.isArray(coords) && coords.length >= 2)
-    .map((coords) => turf.lineString(coords));
+  return getFeatureLineFeatures(routeFeature);
+}
+
+function getFeatureLineFeatures(feature) {
+  if (!feature?.geometry) return [];
+  const geometry = feature.geometry;
+  if (geometry.type === 'LineString') {
+    return [geometry.coordinates || []]
+      .filter((coords) => Array.isArray(coords) && coords.length >= 2)
+      .map((coords) => turf.lineString(coords));
+  }
+  if (geometry.type === 'MultiLineString') {
+    return (geometry.coordinates || [])
+      .filter((coords) => Array.isArray(coords) && coords.length >= 2)
+      .map((coords) => turf.lineString(coords));
+  }
+  return [];
 }
 
 function drawRouteLayers(result) {
@@ -990,6 +1135,22 @@ function renderRouteInfo() {
     `;
   }).join('');
 
+
+  const warningRoadList = (p.warning_roads_near || []).slice(0, 8).map((item) => {
+    const info = buildWarningRoadInfo(item.feature);
+    return `
+      <li>
+        <div class="list-row-top">
+          <strong>${escapeHtml(info.name)}</strong>
+          <span>${item.distMeters.toFixed(0)} m</span>
+        </div>
+        <span class="popup-sub">${escapeHtml(info.incident || t('watchlistNote'))}</span>
+        <div class="inline-actions compact-actions">
+          ${info.sourceUrl ? `<a class="mini-btn secondary" href="${escapeAttr(info.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openSource'))}</a>` : ''}
+        </div>
+      </li>
+    `;
+  }).join('');
   dom.routeInfo.innerHTML = `
     <div class="route-card-head">
       <div>
@@ -1008,11 +1169,18 @@ function renderRouteInfo() {
       <div class="metric-box"><span>${escapeHtml(t('policeNear'))}</span><strong>${(p.police_near || []).length}</strong></div>
       <div class="metric-box"><span>${escapeHtml(t('spbuNear'))}</span><strong>${(p.spbu_near || []).length}</strong></div>
       <div class="metric-box"><span>${escapeHtml(t('store24Near'))}</span><strong>${(p.store24_near || []).length}</strong></div>
+      <div class="metric-box"><span>${escapeHtml(t('warningRoadNear'))}</span><strong>${(p.warning_roads_near || []).length}</strong></div>
     </div>
 
     <div class="content-box">
       <strong>${escapeHtml(t('directions'))}</strong>
       <ol>${steps || `<li>${escapeHtml(t('stepsFallback'))}</li>`}</ol>
+    </div>
+
+    <div class="content-box">
+      <strong>${escapeHtml(t('warningRoadsAlong'))}</strong>
+      <ul class="list-unstyled">${warningRoadList || `<li>${escapeHtml(t('noNearbyWarningRoad'))}</li>`}</ul>
+      <span class="popup-sub">${escapeHtml(t('watchlistNote'))}</span>
     </div>
 
     <div class="content-box">
@@ -1219,7 +1387,7 @@ function buildCctvPopup(info) {
       ${escapeHtml(info.name)}
       ${info.descr ? `<span class="popup-sub">${escapeHtml(info.descr)}</span>` : ''}
       ${info.connectedText ? `<span class="popup-sub">${escapeHtml(info.connectedText)}</span>` : ''}
-      ${info.streamUrl ? `<video class="cctv-live-player" controls muted playsinline preload="none" data-hls-src="${escapeAttr(info.streamUrl)}"></video>` : `<span class="popup-sub">Stream live belum tersedia.</span>`}
+      ${info.streamUrl ? `<video class="cctv-live-player" controls muted playsinline preload="none" data-hls-src="${escapeAttr(info.streamUrl)}"></video>` : `<span class="popup-sub">${escapeHtml(state.language === 'jv' ? 'Siaran langsung dereng kasedhiya.' : 'Stream live belum tersedia.')}</span>`}
       <div class="inline-actions compact-actions">
         ${info.streamUrl ? `<a class="mini-btn" href="${escapeAttr(info.streamUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openStream'))}</a>` : ''}
         <a class="mini-btn secondary" href="${escapeAttr(info.portalUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openPortal'))}</a>
@@ -1260,6 +1428,41 @@ function buildPolicePopup(info) {
         <a class="mini-btn secondary" href="${escapeAttr(info.phoneHref)}">${escapeHtml(t('callOffice'))}</a>
         ${info.website ? `<a class="mini-btn secondary" href="${escapeAttr(info.website)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openWebsite'))}</a>` : `<a class="mini-btn secondary" href="${escapeAttr(searchUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('searchWeb'))}</a>`}
         <a class="mini-btn secondary" href="${escapeAttr(mapsUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openLocation'))}</a>
+      </div>
+    </div>
+  `;
+}
+
+
+function buildWarningRoadInfo(feature) {
+  const p = getProps(feature);
+  return {
+    name: getAny(p, ['name']) || t('warningRoads'),
+    incident: getAny(p, ['incident', 'description']) || '',
+    sourceTitle: getAny(p, ['source_title']) || getAny(p, ['source']) || '',
+    sourceUrl: getAny(p, ['source_url', 'url']) || '',
+    year: getAny(p, ['year']) || '',
+    severity: Number(getAny(p, ['severity']) || 1)
+  };
+}
+
+function getWarningRoadColor(feature) {
+  const severity = Number(feature?.properties?.severity || 1);
+  if (severity >= 3) return '#dc2626';
+  if (severity >= 2) return '#ef4444';
+  return '#f97316';
+}
+
+function buildWarningRoadPopup(info) {
+  return `
+    <div class="popup-card">
+      <strong>${escapeHtml(t('warningRoads'))}</strong><br>
+      ${escapeHtml(info.name)}
+      ${info.incident ? `<span class="popup-sub">${escapeHtml(info.incident)}</span>` : ''}
+      ${info.year ? `<span class="popup-sub">${escapeHtml(info.year)}</span>` : ''}
+      <span class="popup-sub">${escapeHtml(t('watchlistNote'))}</span>
+      <div class="inline-actions compact-actions">
+        ${info.sourceUrl ? `<a class="mini-btn secondary" href="${escapeAttr(info.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t('openSource'))}</a>` : ''}
       </div>
     </div>
   `;
@@ -1400,52 +1603,53 @@ function getRouteTypeLabel(type) {
 
 function translateInstruction(text, language = 'id') {
   if (language === 'en') return String(text || '');
+  const isJv = language === 'jv';
   let out = String(text || '');
   const replacements = [
-    [/^Drive southwest/i, language === 'jv' ? 'Mlaku menyang kidul-kulon' : 'Jalan ke arah barat daya'],
-    [/^Drive southeast/i, language === 'jv' ? 'Mlaku menyang kidul-wetan' : 'Jalan ke arah tenggara'],
-    [/^Drive northwest/i, language === 'jv' ? 'Mlaku menyang lor-kulon' : 'Jalan ke arah barat laut'],
-    [/^Drive northeast/i, language === 'jv' ? 'Mlaku menyang lor-wetan' : 'Jalan ke arah timur laut'],
-    [/^Drive north/i, language === 'jv' ? 'Mlaku menyang lor' : 'Jalan ke arah utara'],
-    [/^Drive south/i, language === 'jv' ? 'Mlaku menyang kidul' : 'Jalan ke arah selatan'],
-    [/^Drive west/i, language === 'jv' ? 'Mlaku menyang kulon' : 'Jalan ke arah barat'],
-    [/^Drive east/i, language === 'jv' ? 'Mlaku menyang wetan' : 'Jalan ke arah timur'],
-    [/^Head southwest/i, language === 'jv' ? 'Miwiti menyang kidul-kulon' : 'Mulai ke arah barat daya'],
-    [/^Head southeast/i, language === 'jv' ? 'Miwiti menyang kidul-wetan' : 'Mulai ke arah tenggara'],
-    [/^Head northwest/i, language === 'jv' ? 'Miwiti menyang lor-kulon' : 'Mulai ke arah barat laut'],
-    [/^Head northeast/i, language === 'jv' ? 'Miwiti menyang lor-wetan' : 'Mulai ke arah timur laut'],
-    [/^Head north/i, language === 'jv' ? 'Miwiti menyang lor' : 'Mulai ke arah utara'],
-    [/^Head south/i, language === 'jv' ? 'Miwiti menyang kidul' : 'Mulai ke arah selatan'],
-    [/^Head west/i, language === 'jv' ? 'Miwiti menyang kulon' : 'Mulai ke arah barat'],
-    [/^Head east/i, language === 'jv' ? 'Miwiti menyang wetan' : 'Mulai ke arah timur'],
-    [/^Turn left onto /i, language === 'jv' ? 'Belok kiwa menyang ' : 'Belok kiri ke '],
-    [/^Turn right onto /i, language === 'jv' ? 'Belok tengen menyang ' : 'Belok kanan ke '],
-    [/^Bear left onto /i, language === 'jv' ? 'Belok rada kiwa menyang ' : 'Belok agak kiri ke '],
-    [/^Bear right onto /i, language === 'jv' ? 'Belok rada tengen menyang ' : 'Belok agak kanan ke '],
-    [/^Slight left onto /i, language === 'jv' ? 'Belok sethithik kiwa menyang ' : 'Belok sedikit kiri ke '],
-    [/^Slight right onto /i, language === 'jv' ? 'Belok sethithik tengen menyang ' : 'Belok sedikit kanan ke '],
-    [/^Make a U-turn to stay on /i, language === 'jv' ? 'Putar balik supaya tetep ing ' : 'Putar balik untuk tetap di '],
-    [/^Continue straight onto /i, language === 'jv' ? 'Terus lurus menyang ' : 'Lanjut lurus ke '],
-    [/^Continue on /i, language === 'jv' ? 'Terus ing ' : 'Lanjut di '],
-    [/^Keep left to stay on /i, language === 'jv' ? 'Tetep kiwa supaya tetep ing ' : 'Ambil kiri untuk tetap di '],
-    [/^Keep right to stay on /i, language === 'jv' ? 'Tetep tengen supaya tetep ing ' : 'Ambil kanan untuk tetap di '],
-    [/^At the roundabout, take the /i, language === 'jv' ? 'Ing bundaran, pilih ' : 'Di bundaran, ambil '],
-    [/^At the roundabout, take /i, language === 'jv' ? 'Ing bundaran, pilih ' : 'Di bundaran, ambil '],
-    [/^Exit the roundabout onto /i, language === 'jv' ? 'Metu bundaran menyang ' : 'Keluar bundaran ke '],
-    [/^Turn left\.?$/i, language === 'jv' ? 'Belok kiwa.' : 'Belok kiri.'],
-    [/^Turn right\.?$/i, language === 'jv' ? 'Belok tengen.' : 'Belok kanan.'],
-    [/^Continue straight\.?$/i, language === 'jv' ? 'Terus lurus.' : 'Lanjut lurus.'],
-    [/^Continue\.?$/i, language === 'jv' ? 'Terus.' : 'Lanjut.'],
-    [/^Bear left\.?$/i, language === 'jv' ? 'Belok rada kiwa.' : 'Belok agak kiri.'],
-    [/^Bear right\.?$/i, language === 'jv' ? 'Belok rada tengen.' : 'Belok agak kanan.'],
-    [/^Slight left\.?$/i, language === 'jv' ? 'Belok sethithik kiwa.' : 'Belok sedikit kiri.'],
-    [/^Slight right\.?$/i, language === 'jv' ? 'Belok sethithik tengen.' : 'Belok sedikit kanan.'],
-    [/^Make a U-turn\.?$/i, language === 'jv' ? 'Putar balik.' : 'Putar balik.'],
-    [/^You have arrived at your destination/i, language === 'jv' ? 'Sampeyan wis tekan tujuan' : 'Anda telah tiba di tujuan'],
-    [/destination is on the left/i, language === 'jv' ? 'tujuan ana ing kiwa' : 'tujuan ada di kiri'],
-    [/destination is on the right/i, language === 'jv' ? 'tujuan ana ing tengen' : 'tujuan ada di kanan'],
-    [/\bon\b/gi, language === 'jv' ? 'ing' : 'di'],
-    [/ toward /gi, language === 'jv' ? ' menyang ' : ' menuju ']
+    [/^Drive southwest/i, isJv ? 'Mlampah dhateng arah kidul-kilen' : 'Jalan ke arah barat daya'],
+    [/^Drive southeast/i, isJv ? 'Mlampah dhateng arah kidul-wetan' : 'Jalan ke arah tenggara'],
+    [/^Drive northwest/i, isJv ? 'Mlampah dhateng arah lor-kilen' : 'Jalan ke arah barat laut'],
+    [/^Drive northeast/i, isJv ? 'Mlampah dhateng arah lor-wetan' : 'Jalan ke arah timur laut'],
+    [/^Drive north/i, isJv ? 'Mlampah dhateng arah lor' : 'Jalan ke arah utara'],
+    [/^Drive south/i, isJv ? 'Mlampah dhateng arah kidul' : 'Jalan ke arah selatan'],
+    [/^Drive west/i, isJv ? 'Mlampah dhateng arah kilen' : 'Jalan ke arah barat'],
+    [/^Drive east/i, isJv ? 'Mlampah dhateng arah wetan' : 'Jalan ke arah timur'],
+    [/^Head southwest/i, isJv ? 'Miwiti dhateng arah kidul-kilen' : 'Mulai ke arah barat daya'],
+    [/^Head southeast/i, isJv ? 'Miwiti dhateng arah kidul-wetan' : 'Mulai ke arah tenggara'],
+    [/^Head northwest/i, isJv ? 'Miwiti dhateng arah lor-kilen' : 'Mulai ke arah barat laut'],
+    [/^Head northeast/i, isJv ? 'Miwiti dhateng arah lor-wetan' : 'Mulai ke arah timur laut'],
+    [/^Head north/i, isJv ? 'Miwiti dhateng arah lor' : 'Mulai ke arah utara'],
+    [/^Head south/i, isJv ? 'Miwiti dhateng arah kidul' : 'Mulai ke arah selatan'],
+    [/^Head west/i, isJv ? 'Miwiti dhateng arah kilen' : 'Mulai ke arah barat'],
+    [/^Head east/i, isJv ? 'Miwiti dhateng arah wetan' : 'Mulai ke arah timur'],
+    [/^Turn left onto /i, isJv ? 'Menggok kiwa dhateng ' : 'Belok kiri ke '],
+    [/^Turn right onto /i, isJv ? 'Menggok tengen dhateng ' : 'Belok kanan ke '],
+    [/^Bear left onto /i, isJv ? 'Menggok sekedhik kiwa dhateng ' : 'Belok agak kiri ke '],
+    [/^Bear right onto /i, isJv ? 'Menggok sekedhik tengen dhateng ' : 'Belok agak kanan ke '],
+    [/^Slight left onto /i, isJv ? 'Menggok sekedhik kiwa dhateng ' : 'Belok sedikit kiri ke '],
+    [/^Slight right onto /i, isJv ? 'Menggok sekedhik tengen dhateng ' : 'Belok sedikit kanan ke '],
+    [/^Make a U-turn to stay on /i, isJv ? 'Wangsul arah supados tetep wonten ing ' : 'Putar balik untuk tetap di '],
+    [/^Continue straight onto /i, isJv ? 'Lajeng lurus dhateng ' : 'Lanjut lurus ke '],
+    [/^Continue on /i, isJv ? 'Lajeng wonten ing ' : 'Lanjut di '],
+    [/^Keep left to stay on /i, isJv ? 'Tetep wonten sisih kiwa supados tetep wonten ing ' : 'Ambil kiri untuk tetap di '],
+    [/^Keep right to stay on /i, isJv ? 'Tetep wonten sisih tengen supados tetep wonten ing ' : 'Ambil kanan untuk tetap di '],
+    [/^At the roundabout, take the /i, isJv ? 'Wonten bundaran, pilih ' : 'Di bundaran, ambil '],
+    [/^At the roundabout, take /i, isJv ? 'Wonten bundaran, pilih ' : 'Di bundaran, ambil '],
+    [/^Exit the roundabout onto /i, isJv ? 'Medal saking bundaran dhateng ' : 'Keluar bundaran ke '],
+    [/^Turn left\.?$/i, isJv ? 'Menggok kiwa.' : 'Belok kiri.'],
+    [/^Turn right\.?$/i, isJv ? 'Menggok tengen.' : 'Belok kanan.'],
+    [/^Continue straight\.?$/i, isJv ? 'Lajeng lurus.' : 'Lanjut lurus.'],
+    [/^Continue\.?$/i, isJv ? 'Lajeng.' : 'Lanjut.'],
+    [/^Bear left\.?$/i, isJv ? 'Menggok sekedhik kiwa.' : 'Belok agak kiri.'],
+    [/^Bear right\.?$/i, isJv ? 'Menggok sekedhik tengen.' : 'Belok agak kanan.'],
+    [/^Slight left\.?$/i, isJv ? 'Menggok sekedhik kiwa.' : 'Belok sedikit kiri.'],
+    [/^Slight right\.?$/i, isJv ? 'Menggok sekedhik tengen.' : 'Belok sedikit kanan.'],
+    [/^Make a U-turn\.?$/i, isJv ? 'Wangsul arah.' : 'Putar balik.'],
+    [/^You have arrived at your destination/i, isJv ? 'Panjenengan sampun dumugi papan tujuan' : 'Anda telah tiba di tujuan'],
+    [/destination is on the left/i, isJv ? 'papan tujuan wonten ing sisih kiwa' : 'tujuan ada di kiri'],
+    [/destination is on the right/i, isJv ? 'papan tujuan wonten ing sisih tengen' : 'tujuan ada di kanan'],
+    [/\bon\b/gi, isJv ? 'wonten ing' : 'di'],
+    [/ toward /gi, isJv ? ' dhateng ' : ' menuju ']
   ];
   replacements.forEach(([pattern, replacement]) => {
     out = out.replace(pattern, replacement);
